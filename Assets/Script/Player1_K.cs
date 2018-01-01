@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 
-public class Player_Movement_K : MonoBehaviour {
+public class Player1_K : MonoBehaviour {
     
-    public static int MoveDistance = 9;
     public Material PlayerImage1;
     private float currentx = 0;
     private float currenty = 0;
@@ -12,6 +11,7 @@ public class Player_Movement_K : MonoBehaviour {
     private GameObject Main;
     private int TurnProgress;
     private int TurnFlag;
+    private float MoveDistance;
 
     void PositionGet()
     {
@@ -24,9 +24,8 @@ public class Player_Movement_K : MonoBehaviour {
     {
         Main = GameObject.Find("Main");
         SubCam = Main.GetComponent<BattleMode_K>().SubCam_Data;
-        TurnProgress = Main.GetComponent<BattleMode_K>().TurnProgress;
         TurnFlag = Main.GetComponent<BattleMode_K>().TurnFlag;
-        MoveDistance = 800 / (MoveDistance - 1);
+        MoveDistance = BattleMode_K.MoveDistance;
     }
        
     void Update () {

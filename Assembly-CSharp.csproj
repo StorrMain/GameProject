@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3CF0A5DF-0135-9C8C-55DF-A63940AE05AF}</ProjectGuid>
+    <ProjectGuid>{83BE2866-0A53-71D6-C680-423D67BBAD46}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,8 +54,9 @@
      <Compile Include="Assets\Script\BattleMode_K.cs" />
      <Compile Include="Assets\Script\Enemy_Movement_K.cs" />
      <Compile Include="Assets\Script\Parameters_K.cs" />
-     <Compile Include="Assets\Script\Player_Movement_K.cs" />
+     <Compile Include="Assets\Script\Player1_K.cs" />
      <Compile Include="Assets\Script\SubCamera_Movement_K.cs" />
+     <Compile Include="Assets\Script\TileMap.cs" />
      <None Include="Assets\Images\Materials\Character.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

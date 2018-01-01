@@ -14,8 +14,6 @@ public class SubCamera_Movement_K : MonoBehaviour {
         Main = GameObject.Find("Main");
         MainCam = GameObject.Find("Main Camera");
         SubCam = Main.GetComponent<BattleMode_K>().SubCam_Data;
-        TurnProgress = Main.GetComponent<BattleMode_K>().TurnProgress;
-        TurnFlag = Main.GetComponent<BattleMode_K>().TurnFlag;
         SubCam.SetActive(false);
     }
 
